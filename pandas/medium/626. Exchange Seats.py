@@ -1,6 +1,7 @@
 import pandas as pd
 
 # Runtime: Beats 84.66%
+# Memory: Beats 76.72%
 def exchange_seats(seat: pd.DataFrame) -> pd.DataFrame:
     for i in range(0, len(seat['student'])-1, 2):
         student = seat['student'][i]
